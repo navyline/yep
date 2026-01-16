@@ -91,7 +91,7 @@ export default async function Page({ searchParams }: { searchParams: Promise<{ [
     <div className="min-h-screen bg-slate-50 flex items-center justify-center p-6 text-slate-900 font-sans">
       {!userName ? (
         <div className="w-full max-w-md bg-white rounded-3xl shadow-xl p-8 border border-slate-100">
-          <h1 className="text-3xl font-black text-center text-blue-600 mb-2">YEA SYSTEM</h1>
+          <h1 className="text-3xl font-black text-center text-blue-600 mb-2">005 Natakorn Wongthi</h1>
           <p className="text-center text-slate-400 mb-8">
             {isRegister ? "สร้างบัญชีใหม่เพื่อเริ่มต้นใช้งาน" : "ยินดีต้อนรับกลับมา กรุณาเข้าสู่ระบบ"}
           </p>
